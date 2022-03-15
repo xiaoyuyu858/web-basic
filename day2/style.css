@@ -28,8 +28,8 @@ a:hover {
 }
 a:active {
   color: green;
-  text-decoration: underline;
 }
 li {
   list-style: circle;
+  list-style-position: inside;
 }
