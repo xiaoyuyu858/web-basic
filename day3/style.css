@@ -1,0 +1,60 @@
+.container {
+  width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.popular-heading {
+  font-size: 42px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 32px;
+}
+.popular-header {
+  margin-bottom: 70px;
+}
+.popular-description {
+  font-size: 15px;
+  font-weight: 300;
+  color: rgb(136, 136, 136);
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.popular-list-services {
+  display: flex;
+}
+.popular-service {
+  border: 1px solid #e3e6ea;
+  margin-left: 15px;
+  margin-right: 15px;
+  padding: 20px;
+}
+.popular-service-thumb {
+  margin-bottom: 35px;
+}
+.popular-service-heading {
+  text-align: center;
+  font-size: 22px;
+  color: rgb(38, 58, 65);
+  font-weight: 700;
+  margin-bottom: 22px;
+}
+
+.popular-service-description {
+  text-align: center;
+  font-size: 15px;
+  line-height: 27px;
+}
+.popular-service-readmore {
+  display: block;
+  width: 170px;
+  padding: 15px;
+  background-color: #303830;
+  color: aliceblue;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 20px;
+}
