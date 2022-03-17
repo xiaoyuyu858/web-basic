@@ -1,0 +1,21 @@
+.navbar-logo {
+  max-width: 120px;
+  margin-right: 100px;
+}
+.navbar-logo .logo {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.navbar-nav .navbar-menu {
+  list-style: none;
+}
+.navbar-nav .navbar-item {
+  margin-right: 20px;
+  text-decoration: none;
+}
+.navbar-nav .navbar-item .navbar-link {
+  text-decoration: none;
+  color: black;
+  background-color: antiquewhite;
+}
