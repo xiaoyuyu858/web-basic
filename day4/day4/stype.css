@@ -16,6 +16,78 @@
 }
 .navbar-nav .navbar-item .navbar-link {
   text-decoration: none;
+
   color: black;
   background-color: antiquewhite;
+}
+.slider {
+  height: 265px;
+  position: relative;
+}
+.slider img {
+  height: 100%;
+}
+.news-slider-img {
+  height: 93px;
+}
+.text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(#746161, black, transparent);
+  color: white;
+  padding: 10px;
+}
+.newep-slider,
+.cartoon-slider,
+.story-slider,
+.watch-silder,
+.rating-slider {
+  position: relative;
+}
+.newep-title,
+.cartoon-title,
+.story-chap,
+.story-title,
+.watch-name,
+.rating-name,
+.rating-number {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(#746161, black, transparent);
+  color: white;
+  padding: 5px;
+  font-size: 15px;
+}
+.story-chap {
+  margin-bottom: 240px;
+  margin-left: 5px;
+  margin-right: 100px;
+  border-radius: 10%;
+  border: 1px solid;
+}
+.rating-name{
+  margin-bottom: 80px;
+  margin-right: 70px;
+}
+.rating-number {
+  margin-left: 150px;
+  margin-right: 5px;
+  font-size: 30px;
+  font-weight: bold;
+}
+.cartoon-title-name,
+.watch-name-title {
+  font-size: 18px;
+}
+.h1 {
+  margin-bottom: 20px;
+}
+.news-title {
+  font-size: 15px;
+  color: rgb(36, 25, 25);
+  padding: 10px;
 }

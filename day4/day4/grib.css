@@ -3,20 +3,34 @@
   margin: 0;
   padding: 0;
 }
-
-.container {
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+.container,
+.container-header,
+.container-newep,
+.container-news,
+.container-cartoon,
+.container-story,
+.container-collection,
+.container-watch,
+.container-rating {
   width: 1140px;
+  min-width: 1024px;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 12px;
-  padding-right: 12px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 .row {
   display: flex;
   flex-direction: row;
-  margin-left: -12px;
-  margin-right: -12px;
+  margin-left: -5px;
+  margin-right: -5px;
+  margin-top: -10px;
+  margin-bottom: 10px;
 }
 
 .col {
@@ -25,74 +39,91 @@
 
 .col-1 {
   flex-basis: 8.333333%;
-  padding-left: 12px;
-  padding-right: 12px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-top: 10px;
 }
-
+.col-1.5 {
+  flex-basis: 12.499999%;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-top: 10px;
+}
 .col-2 {
   flex-basis: 16.666667%;
-  padding-left: 12px;
-  padding-right: 12px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-top: 10px;
 }
 
 .col-3 {
   flex-basis: 25%;
-  padding-left: 12px;
-  padding-right: 12px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-top: 10px;
 }
 
 .col-4 {
   flex-basis: 33.333333%;
-  padding-left: 12px;
-  padding-right: 12px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-top: 10px;
 }
 
 .col-5 {
   flex-basis: 41.666667%;
-  padding-left: 12px;
-  padding-right: 12px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-top: 10px;
 }
 
 .col-6 {
   flex-basis: 50%;
-  padding-left: 12px;
-  padding-right: 12px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-top: 10px;
 }
 
 .col-7 {
   flex-basis: 58.333333%;
-  padding-left: 12px;
-  padding-right: 12px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-top: 10px;
 }
 
 .col-8 {
   flex-basis: 66.666667%;
-  padding-left: 12px;
-  padding-right: 12px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-top: 10px;
 }
 
 .col-9 {
   flex-basis: 75%;
-  padding-left: 12px;
-  padding-right: 12px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-top: 10px;
 }
 
 .col-10 {
   flex-basis: 83.333333%;
-  padding-left: 12px;
-  padding-right: 12px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-top: 10px;
 }
 
 .col-11 {
   flex-basis: 91.666667%;
-  padding-left: 12px;
-  padding-right: 12px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-top: 10px;
 }
 
 .col-12 {
   flex-basis: 100%;
-  padding-left: 12px;
-  padding-right: 12px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-top: 10px;
 }
 
 .d-flex {
@@ -129,4 +160,7 @@
 
 .align-items-baseline {
   align-items: baseline;
+}
+.mb-10 {
+  margin-bottom: 10px;
 }
